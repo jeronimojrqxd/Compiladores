@@ -8,6 +8,8 @@ Você deve implementar um scanner que faça a leitura de arquivos fontes na ling
 
 Exemplo
 Considere o seguinte código fonte em C, armazenado no arquivo newton.c.
+
+```
 #include
 #include
 float f(float x) {
@@ -34,7 +36,7 @@ int main() {
   printf(" A solução esperada não converge ou as iterações não são suficientes\n");
   return 1;
 }
-
+```
 Seu programa deve produzir a seguinte saída, ao ser construído usando o Lex:
 $ lex identificadores.l
 $ gcc lex.yy.c -o identificadores
