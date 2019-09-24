@@ -41,25 +41,31 @@ int main() {
 Seu programa deve produzir a seguinte saída, ao ser construído usando o Lex: 
 
 $ lex identificadores.l 
+
 $ gcc lex.yy.c -o identificadores
+
 $ ./identificadores newton.c
 
 Variáveis Inteiras:
+
 itr maxmitr
 
 Total de Variáveis Inteiras: 2
 
 Variáveis Ponto Flutuante: 
+
 x x h x0 x1 allerr
 
 Total de Variáveis Ponto Flutuante: 6
 
 Funções Inteiras:
+
 main
 
 Total de Funções Inteiras: 1
 
 Funções Ponto Flutuante:
+
 f df
 
 Total de Funções Ponto Flutuante: 2
